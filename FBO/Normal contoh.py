@@ -15,10 +15,10 @@ class Karyawan:
         print("Gaji :", self.gaji)
  
 # Membuat objek pertama dari kelas Karyawan
-karyawan1 = Karyawan("Sarah", 1000000)
+karyawan1 = Karyawan("Adi", 1000000)
 # Membuat objek kedua dari kelas Karyawan
 karyawan2 = Karyawan("Budi", 2000000)
  
 karyawan1.tampilkan_profil()
 karyawan2.tampilkan_profil()
-print("Total karyawan :", Karyawan.jumlah_karyawan)
+karyawan2.tampilkan_jumlah()
